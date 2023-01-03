@@ -1,0 +1,79 @@
+html{
+  background: url(./img/PS4Wallpapers.com_gameofthrones-3-3840x2160.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.epimg
+{
+  border-radius:8px;
+}
+.head {
+  font-size: 70px;
+  margin-left: 30%;
+  text-align: center;
+  color: #e79e16;
+  width: 40%;
+  background-color: rgba(45, 126, 25, 0.6);
+  border-radius: 180px;
+  overflow: hidden;
+}
+.board 
+{
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: space-around;
+  margin: 10px auto;
+  width: 85%;
+}
+.card
+{
+  border-radius: 15px;
+  margin-top: 45px;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding: 10px;
+  width: 250px;
+  height: 330px;
+  border: solid 1px;
+  box-shadow: 5px 5px 5px 2px rgb(39, 22, 22);
+  background-color: #974141;
+}
+.select{
+  display: inline-block;
+}
+.span{
+  font-size: x-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(85, 10, 10);
+  background-color: rgba(206, 152, 53, 0.8);
+  width: 20%;
+  border-radius: 180px;
+}
+p {
+  color: gold;
+  white-space: nowrap;
+  overflow: hidden;
+  height: 30px;
+  text-overflow: ellipsis;
+}
+h4 {
+  color: rgb(113, 192, 9);
+  width: 200;
+  height: 35px;
+  overflow: hidden;
+}
+header,main {
+  text-align: center;
+}
+.search {
+  display: inline-block;
+}
+footer{
+  width: 100%;
+  height: 200px;
+  background-image: url("./img/yy.png");
+  background-repeat: repeat-x;
+  background-size: 100% 100%;
+}
